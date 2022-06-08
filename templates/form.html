@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+</head>
+<body>
+    <h1>
+        Форма для поиска
+    </h1>
+    <!--форма для отправки данных на сервер-->
+    <form action="results.html"> <!--вывод результатов на страницу results.html-->
+        <input type="text", value="", placeholder="строка поиска", name="query_string">
+        <p><select name="were">        <!--выпадающий список-->
+                <option>all</option>
+                <option>company</option>
+                <option>name</option>
+            </select>
+        </p>
+        <br>
+        <input type="submit", value="Go">  <!--кнопка-->
+    </form>
+
+    <br><!--перевод каретки-->
+    <a href="index.html">Перейти на Главную</a>
+</body>
+</html>
